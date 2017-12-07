@@ -55,3 +55,5 @@ function get_user_ip()
     return $_SERVER['HTTP_FORWARDED'];
   return $_SERVER['REMOTE_ADDR'];
 }
+
+$ip = get_user_ip();
